@@ -38,6 +38,10 @@ group :development, :test do
 
   # rspec-rails is a testing framework for Rails 3.x and 4.x.
   gem 'rspec-rails', '~> 3.0'
+  # Capybara is an integration testing tool for rack based web applications.
+  # It simulates how a user would interact with a website
+  gem 'capybara', '~> 2.4.4'
+
 end
 
 group :development do
