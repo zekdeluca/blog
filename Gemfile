@@ -41,7 +41,15 @@ group :development, :test do
   # Capybara is an integration testing tool for rack based web applications.
   # It simulates how a user would interact with a website
   gem 'capybara', '~> 2.4.4'
-
+  
+  
+  
+  # 'factory_girl_rails' provides integration between factory_girl and 
+  # rails 3 (currently just automatic factory definition loading)
+  # 'factory_girl' provides a framework and DSL for defining and using 
+  # factories - less error-prone, more explicit, and all-around easier to 
+  # work with than fixtures.
+  gem 'factory_girl_rails', '~> 4.0'
 end
 
 group :development do
